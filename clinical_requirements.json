@@ -1,0 +1,33 @@
+{
+  "subject": "Hyperbaric Oxygen Therapy (Systemic/Topical)",
+  "guideline": "CG-MED-73",
+  "publish_date": "06/28/2024",
+  "status": "Reviewed",
+  "last_review_date": "05/09/2024",
+  "requirements": {
+    "req1": "Acute peripheral arterial insufficiency",
+    "req2": "Acute thermal burns: deep second degree or third degree in nature",
+    "req3": "Acute traumatic ischemia",
+    "req4": "Carbon monoxide poisoning",
+    "req5": "Central retinal artery occlusion (CRAO)",
+    "req6": "Diabetic lower extremity wounds with Wagner grade III or higher wound severity and wound has not responded to 30 days of appropriate conservative treatment",
+    "req7": "Arterial insufficiency ulcers with persistent hypoxia despite attempts at increasing blood flow or when wound failure continues despite maximum revascularization",
+    "req8": "Pressure ulcers with postoperative support of skin graft or flaps showing evidence of ischemic failure, in the field of previous irradiated area for pelvic or perineal malignancies, or when progressive necrotizing soft tissue infection or refractory osteomyelitis is present",
+    "req9": "Venous stasis ulcers with supporting skin grafting or flap reconstruction in individuals with concomitant peripheral arterial occlusive disease, hypoxia not corrected by control of disease, and wound shows measurable signs of healing, defined as at least 20% reduction in wound surface area, when evaluated at 30 day intervals",
+    "req10": "Chronic refractory osteomyelitis",
+    "req11": "Compartment syndrome",
+    "req12": "Compromised skin graft or flaps (enhancement of healing in selected wounds)",
+    "req13": "Crush injuries",
+    "req14": "Cyanide poisoning",
+    "req15": "Decompression sickness",
+    "req16": "Delayed radiation injury, including osteoradionecrosis, soft tissue radiation necrosis, and radiation cystitis",
+    "req17": "Gas or air embolism",
+    "req18": "Gas gangrene (for example, clostridial myositis and myonecrosis)",
+    "req19": "Idiopathic Sudden Sensorineural Hearing Loss (ISSHL) in individuals with a magnitude of hearing loss of at least 70 decibels, after inadequate response to glucocorticoid treatment",
+    "req20": "Intracranial abscess",
+    "req21": "Necrotizing soft-tissue infections",
+    "req22": "Prophylactic pre and post treatment for individuals undergoing dental surgery of a radiated jaw",
+    "req23": "Severe anemia with exceptional blood loss, when transfusion is impossible or delayed"
+  },
+  "decision_logic": "(req1 OR req2 OR req3 OR req4 OR req5) OR (req6 AND req7 AND (req8 OR req9)) OR (req10 OR req11 OR req12 OR req13 OR req14 OR req15 OR req16 OR req17 OR req18 OR req19 OR req20 OR req21 OR req22 OR req23)"
+}
