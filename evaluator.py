@@ -1,15 +1,5 @@
 """
 Clinical Requirements Evaluation Agent using Groq Llama 3.1 70B Versatile
-
-Required dependencies:
-pip install langchain langchain-groq chromadb pymupdf python-dotenv
-
-Setup:
-1. Create a .env file in your project directory with:
-   GROQ_API_KEY=your_groq_api_key_here
-
-2. Ensure you have the clinical_requirements.json file in your project directory
-3. Have PDF evidence documents in the "evidence" directory
 """
 
 import json
